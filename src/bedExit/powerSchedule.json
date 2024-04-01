@@ -1,0 +1,1 @@
+{"From": "nurse", "To": "client", "StationNo": "1", "isEnable": true, "OnTime": "00:00", "OffTime": "23:59", "Mon": true, "Tue": true, "Wed": true, "Thu": true, "Fri": true, "Sat": true, "Sun": true, "Bshutdown": false}

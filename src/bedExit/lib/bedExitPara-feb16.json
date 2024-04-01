@@ -1,0 +1,55 @@
+{
+    "c_predict":0,
+    "weightModel":"depth-dec29-E2.tflite",
+    "conf_thres":0.5,
+	"bRotateImage":0,
+    "sensorAngle":0,
+    "c_bSaveDepth":0,
+    "c_bSaveImage":0,
+    "c_save_mode":0,
+    "c_save_interval":1,
+    "c_floor_level":2400,
+    "c_bed_level":1810,
+    "c_breath_distance":1.7,
+    "c_lying_offset":200,
+    "c_sit_offset": 350,
+    "c_min_bedside_point":500,
+    "c_min_lying_point":500,
+    "c_min_sit_point":500,
+    
+    "c_yLeave":100,
+    "bedLength":1600,
+    "c_lying_count":10,
+    "c_other_count":10,
+    "c_predict_lying_count":5,
+    "c_breath_count":1,
+    
+    "c_deltaY":0,
+    "c_motion_th":40,
+    "c_off_center":30,
+    "c_bed_head_line":300,
+    
+    "c_pointAboveSit":1000,
+    "c_pointAboveSitHead":5100,
+    "c_pointAboveSitEnd":5200,
+    "c_pointLying":2100,
+    "c_pointBedsideRight":10000,
+    "c_pointBedsideRightLow":5000,
+    "c_pointBedsideLeft":30000,
+    "c_pointBedsideLeftLow":5000,
+    "c_pointBedside":5000,
+    "c_pointBedsideLow":5200,
+    "clipping_distance_in_meters": 1.8,
+    "threshold_distance_in_meters" : 0.1,
+    "bRaiseOtherAlert":1,
+    "c_sendImageInterval":2,
+    "c_use_breath_detect":0,
+    "c_use_thermal_detect":0,
+    "c_min_thermal_th":20,
+    "c_thermal_adjust_count":60,
+    "c_thermal_change":3
+   
+   
+}
+
+

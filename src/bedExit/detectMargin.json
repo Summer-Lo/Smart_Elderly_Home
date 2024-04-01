@@ -1,0 +1,1 @@
+{"From": "nurse", "To": "client", "StationNo": "0", "ChkFront": true, "ChkBack": true, "FrontMargin": "20", "LeftMargin": "20", "RightMargin": "20", "BackMargin": "20", "ChkLeftSide": true, "ChkRightSide": false, "BedHeadPos": "0", "DetectBedside": "1"}

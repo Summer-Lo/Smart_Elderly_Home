@@ -1,0 +1,1 @@
+{"From": "nurse", "To": "client", "StationNo": "98", "ReStartAfterStopDelay": "0", "FramePerSecond": 1, "NoOffDayToKeep": 7, "Backup": false, "LogData": true, "LogDataWhenMotionDetected": true, "DepthFrame": false, "LogGrayScaleFrame": true, "Breath": true, "UseBreathSensorDetectPresence": true, "MotionSleepLock": true, "RealtimeBackup": false, "MarkImage": true}

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GroupAddress-Export xmlns="http://knx.org/xml/ga-export/01">
+  <GroupRange Name="Aging" RangeStart="1" RangeEnd="2047">
+    <GroupRange Name="Light" RangeStart="1" RangeEnd="255">
+      <GroupAddress Name="ALL" Address="0/0/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="Bedroom" Address="0/0/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="W/C Fan" Address="0/0/3" DPTs="DPST-1-1" />
+      <GroupAddress Name="Centre Lamp" Address="0/0/4" DPTs="DPST-1-1" />
+      <GroupAddress Name="W/C Lamp" Address="0/0/5" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="AirC" RangeStart="256" RangeEnd="511">
+      <GroupAddress Name="Temperature" Address="0/1/0" DPTs="DPST-9-1" />
+      <GroupAddress Name="AriC control" Address="0/1/1" />
+    </GroupRange>
+    <GroupRange Name="Monitoring" RangeStart="512" RangeEnd="767">
+      <GroupAddress Name="V" Address="0/2/0" DPTs="DPST-9-20" />
+      <GroupAddress Name="I" Address="0/2/1" DPTs="DPST-7-12" />
+      <GroupAddress Name="Traffic" Address="0/2/2" DPTs="DPST-5-1" />
+    </GroupRange>
+    <GroupRange Name="Shutter" RangeStart="768" RangeEnd="1023">
+      <GroupAddress Name="WIndow open / close" Address="0/3/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Window step by step" Address="0/3/1" DPTs="DPST-1-7" />
+      <GroupAddress Name="window position" Address="0/3/2" DPTs="DPST-5-1" />
+    </GroupRange>
+  </GroupRange>
+</GroupAddress-Export>

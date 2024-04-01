@@ -1,0 +1,32 @@
+{
+    "c_FOV_H":85,
+    "c_FOV_V":58,
+    "c_FOV_D":94,
+    
+    "c_predict":false,
+    "weightModel":"depth-E0.tflite",
+    "conf_thres":0.5,
+
+    "c_clipping_distance_in_meters": 2.0,
+    "c_threshold_distance_in_meters" : 0.1,
+    
+    "c_auto_detect_bed":false,
+	"c_bRotateImage":0,
+    "c_sensorAngle":0,
+    "c_detectBedside":0,
+    "c_bSaveDepth":false,
+    "c_bSaveImage":true,
+    "c_save_mode":2,
+    "c_save_image_type":0,
+    "c_save_interval":1,
+    "c_sendImageInterval":2,
+    "c_use_breath_detect":true,
+    "c_use_thermal_detect":false,
+    "c_use_motion_detect":true,
+    "c_total_day_to_keep":7,
+    "c_keepalive_interval":60,
+    "c_server_timeout":30,
+    "c_detect_bedside":1,
+    "c_detect_fall":false
+
+}
