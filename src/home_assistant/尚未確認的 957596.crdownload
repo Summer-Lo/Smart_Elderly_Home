@@ -1,0 +1,92 @@
+- id: '1699508778485'
+  alias: Signage Case1
+  description: 12:00 食藥
+  trigger:
+  - platform: time
+    at: '12:00:00'
+  condition:
+  - condition: state
+    entity_id: switch.take_the_pills
+    state: 'on'
+  action:
+  - service: mqtt.publish
+    data:
+      qos: '1'
+      retain: true
+      topic: IC/elderly/signage1
+      payload: '{"Case_No": 1}'
+  mode: single
+- id: '1699510053002'
+  alias: Signage Case2
+  description: 14:00 做運動
+  trigger:
+  - platform: time
+    at: '14:00:00'
+  condition:
+  - condition: state
+    entity_id: switch.do_exercise
+    state: 'on'
+  action:
+  - service: mqtt.publish
+    data:
+      qos: '1'
+      retain: false
+      topic: IC/elderly/signage1
+      payload: '{"case_no":"2"}'
+  mode: single
+- id: '1699510168428'
+  alias: Signage Case3
+  description: 16:00 打電話比阿仔
+  trigger:
+  - platform: time
+    at: '16:00:00'
+  condition:
+  - condition: state
+    entity_id: switch.make_a_call
+    state: 'on'
+  action:
+  - service: mqtt.publish
+    data:
+      qos: '1'
+      retain: false
+      topic: IC/elderly/signage1
+      payload: '{"case_no":"3"}'
+  mode: single
+- id: '1699510291478'
+  alias: Signage Case4
+  description: 18:00 量度血壓
+  trigger:
+  - platform: time
+    at: '18:00:00'
+  condition:
+  - condition: state
+    entity_id: switch.measure_blood_pressure
+    state: 'on'
+  action:
+  - service: mqtt.publish
+    data:
+      qos: '1'
+      retain: false
+      topic: IC/elderly/signage1
+      payload: '{"case_no":"4"}'
+  mode: single
+- id: '1699513891354'
+  alias: Air_Con_On
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - input_boolean.air_con
+    from:
+    to:
+  condition: []
+  action:
+  - service: lifesmart.send_keys
+    data:
+      me: 8ea1
+      agt: A3YAAABRAEoYRzkwNzIwNg
+      ai: AI_IR_8ea1_1629767901
+      category: custom
+      brand: custom
+      keys: '["CS_1"]'
+  mode: single
