@@ -27,11 +27,11 @@ All the Dashboard and operation can be completed via the broswer or mobile app "
 #### Administrator controlling dashboard
 ![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/control_page1.jpg)
 
-![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/control_page2.jpg)
+![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/control_page2.JPG)
 
-![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/control_page3.jpg)
+![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/control_page3.JPG)
 
 #### Client controlling mobile app
-![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/client_mobile_page1.jpg)
+![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/client_mobile_page1.jpeg)
 
-![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/client_mobile_page2.jpg)
+![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/client_mobile_page2.jpeg)
