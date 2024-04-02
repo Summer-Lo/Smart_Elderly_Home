@@ -32,4 +32,4 @@ All the Dashboard and operation can be completed via the broswer or mobile app "
 ![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/control_page3.JPG)
 
 #### Client controlling mobile app
-![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/client_mobile_app.jpeg)
+![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/client_mobile_app.jpg)
