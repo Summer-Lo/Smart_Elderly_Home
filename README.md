@@ -40,7 +40,7 @@ All the Dashboard and operation can be completed via the broswer or mobile app "
 ![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/public_housing_view.jpeg)
 
 - KNX & LifeSmart
-![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/knx_homeassistant.jpeg)
+![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/knx_lifesmart.jpeg)
 
 - IoT devices
 ![image](https://github.com/Summer-Lo/Smart_Elderly_Home/blob/main/doc/img/iot_devices.jpg)
